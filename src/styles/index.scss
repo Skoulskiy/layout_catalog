@@ -107,12 +107,11 @@ body {
     line-height: 18px;
     color: $main-accent;
     margin-bottom: 4px;
-    white-space: wrap;
     transition: color 300ms linear;
   }
 
   &:hover .card__title {
-    color: #34568b;
+    color: $active-color;
   }
 
   &:hover {
